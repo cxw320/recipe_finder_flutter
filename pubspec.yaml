@@ -38,6 +38,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   # Transparent image is for when images are being loaded over a network
   transparent_image: ^2.0.1
+  # Dio is for networking
+  dio: ^5.1.2
 
 dev_dependencies:
   flutter_test:
