@@ -19,7 +19,6 @@ class SpoonacularApiImpl implements SpoonacularApi {
   SpoonacularApiImpl({required this.dio});
 
   @override
-  // TODO: implement dio
   Future<List<RecipeDto>> getRandomRecipes() async {
     try {
       Response response = await dio.get("");
