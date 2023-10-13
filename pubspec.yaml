@@ -40,6 +40,8 @@ dependencies:
   transparent_image: ^2.0.1
   # Dio is for networking
   dio: ^5.1.2
+  # Json annotations library is to help for deserializing
+  json_annotation: ^4.8.1
 
 dev_dependencies:
   flutter_test:
@@ -51,6 +53,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  # build runner is used here for us to use the json_serializable package
+  build_runner: ^2.4.6
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
